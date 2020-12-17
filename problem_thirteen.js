@@ -1,4 +1,4 @@
-// how many caraacter have in  there sentence
+// how many inp caraacter have in  there sentence
 var value ="hello payer bhai"
 var inp = "x"
 function find_character(value,inp){

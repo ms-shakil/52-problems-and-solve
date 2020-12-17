@@ -1,4 +1,4 @@
-# how many singal caraacter have in  there sentence
+# how many inp caraacter have in  there sentence
 value= input("Enter a sentence:")
 inp = input("Enter the cereter:")
 def Myfunction(data,inp):
