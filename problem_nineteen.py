@@ -2,7 +2,7 @@
 import re
 text = input("Enter text:")
 def MyFunction(text):
-    value = re.sub(r'[^\w]', ' ', text)
+    value = re.sub(r'[,.!]', ' ', text)
     val =" ".join(value.split())
     print("Count = ",len(val.split(" ")))
 
