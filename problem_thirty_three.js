@@ -1,4 +1,3 @@
-
 var inp = 5
 var inp1 = 6
 var inp2 = 100
