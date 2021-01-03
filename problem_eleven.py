@@ -4,7 +4,7 @@ def Factorial(number):
     num = 1
     for i in range(number):
         var = i* num
-        num+= var
+        num += var
     count = 0
     arr = list(str(num))
     for i in range(len(arr)-1,0,-1):

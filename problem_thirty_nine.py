@@ -1,5 +1,4 @@
 # The sum of the streams
-
 inp = int(input("Enter a number:"))
 inp2 = int(input("Enter power :"))
 def MyFunction(inp,inp2):
