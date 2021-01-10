@@ -1,5 +1,5 @@
 //Pascal's triangle
-var value = 5
+var value = 10
 function MyFunction(value){
     var list =[]
     for(var i = 0;i<value;i++){
@@ -7,12 +7,10 @@ function MyFunction(value){
         if (i == 0){
             console.log(1)
             console.log(1,1)
-        }else if(i == 1){
-            console.log(1,i+1,1)
             list.push(1)
-            list.push(i+1)
             list.push(1)
-        }else if(i>1 ){
+        }
+        else {
             for (var j = 0; j<list.length-1;j++){
                 if(j ==0){
                     arr.push (1)
