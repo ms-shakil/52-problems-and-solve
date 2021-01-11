@@ -7,6 +7,7 @@ function MyFunction(inp,lst){
         for(var j = 0 ;j<lst.length;j++){
             if(lst[j]==i){
                 boll = false
+                break
             }
         }if(boll){
             console.log(i)

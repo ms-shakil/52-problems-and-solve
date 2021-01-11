@@ -7,6 +7,7 @@ def MyFunction(inp,lst):
         for j in range(len(lst)):
             if lst[j]==i:
                 bollen= True
+                break
         if bollen==False:
            print(i)
 
